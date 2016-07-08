@@ -1,0 +1,25 @@
+.nav{
+  padding: 2em 2em 2em;
+  line-height: .1;
+  text-transform: uppercase;
+  border-bottom: solid 1px $color-grey-light;
+}
+.nav-title{
+  float: left;
+  font-family: $header-font-family;
+  letter-spacing: .3em;
+  font-size: 80%;
+}
+.nav-items{
+  float: right;
+  font-family: $alt-font-family;
+  font-size: 50%;
+  letter-spacing: .2em;
+}
+.nav-items ul,li{
+  display: inline;
+  margin-left: 2em;
+}
+.nav-items ul,li,a:hover{
+  text-decoration: none;
+}
