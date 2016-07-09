@@ -100,9 +100,10 @@
     letter-spacing: 1rem;
   }
   hr{
-    width: 20%;
-    height: 1px;
+    width: 10%;
+    height: 3px;
     margin: $spacing-unit / 2 auto;
+    background: $color-grey-light;
   }
 }
 .block-title{
