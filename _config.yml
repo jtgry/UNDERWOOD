@@ -18,6 +18,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+version: 3.0.3
 markdown: kramdown
 
 collections:
