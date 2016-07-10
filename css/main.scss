@@ -51,8 +51,8 @@ $hd:               1800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "jeet",
-        "animate",
+        "jeet/jeet",
+        "animate/animate",
         "base",
         "nav",
         "layout",
