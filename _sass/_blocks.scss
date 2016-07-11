@@ -91,7 +91,7 @@
   display: table;
   width: 50%;
   min-height: 50vw;
-  height: 50vh;
+  height: 50%;
   @include span(1/2);
   @media (max-width: $tablet) {
     @include stack();
