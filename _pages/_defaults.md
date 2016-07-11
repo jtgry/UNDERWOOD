@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: New Page
+permalink: /newpage/
 image_path: "/images/cornfield.jpg"
-menu: "true"
+menu: "false"
 ---
 
 
