@@ -91,7 +91,8 @@ h1.post-header-title{
     $delay: 1s
   );
 }
-.post{
+.post-item{
+  margin-bottom: $spacing-unit / 2;
   @include fadeIn(
   $delay: 2s
   );
