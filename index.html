@@ -6,10 +6,11 @@ layout: home
   {% if block.type == "block-feature-text" %}
   <section class="block-feature">
     <h2 class="block-feature-title">{{ block.title }}</h2>
-    <div class="container">
-      <div class="block-feature-text">
-        {{ block.content }}
-        <a class="button" href="/journal">Learn More</a>
+      <div class="container">
+        <div class="block-feature-text">
+          {{ block.content }}
+          <a class="button" href="/journal">Learn More</a>
+        </div>
       </div>
     </div>
   </section>
@@ -34,9 +35,11 @@ layout: home
     </div>
     <div class="block-content">
       <div class="block-text vertical">
-        <h2 class="block-title">{{ block.title }}</h2>
-        <hr />
-        {{ block.content }}
+        <div class="container">
+          <h2 class="block-title">{{ block.title }}</h2>
+          <hr />
+          {{ block.content }}
+        </div>
       </div>
     </div>
   </section>

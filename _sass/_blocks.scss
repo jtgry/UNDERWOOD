@@ -20,6 +20,9 @@
   font-size: 300%;
   letter-spacing: 1rem;
   text-transform: uppercase;
+  @media (max-width: $phone) {
+    font-size:  200%;
+  }
 }
 .block-feature{
   display: table;
@@ -31,6 +34,10 @@
   width: 120%;
   margin-left: -10%;
   font-size: 90%;
+  @media (max-width: $tablet) {
+    width: 100%;
+    margin: 0;
+  }
 }
 .block-banner{
   display: table;
@@ -52,6 +59,9 @@
     letter-spacing: 1rem;
     text-transform: uppercase;
     color: $color-white;
+    @media (max-width: $phone) {
+      font-size:  200%;
+    }
   }
   .block-banner-text{
     color: $color-white;
@@ -104,6 +114,10 @@
     height: 3px;
     margin: $spacing-unit / 2 auto;
     background: $color-grey-light;
+  }
+  @media (max-width: $tablet) {
+    margin: 0;
+    padding: 0;
   }
 }
 .block-title{
