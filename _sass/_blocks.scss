@@ -71,8 +71,8 @@
   display: table;
   width: 50%;
   min-height: 50vw;
-  max-height: 50vh;
-  height: 50vh;
+  max-height: 50vw;
+  height: 50vw;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -82,26 +82,26 @@
   background-size: cover;
   text-align: center;
   @include span(1/2);
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop) {
     @include stack();
     margin-bottom: $spacing-unit / 2;
   }
 }
 .block-content{
   display: table;
+  background: $color-off-white;
   width: 50%;
   min-height: 50vw;
-  max-height: 50vh;
-  height: 50vh;
+  max-height: 50vw;
+  height: 50vw;
+  overflow-y: hidden;
   @include span(1/2);
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop) {
     @include stack();
     margin-bottom: $spacing-unit / 2;
   }
 }
 .block-text{
-  background: $color-off-white;
-  padding: 0 4em;
   font-size: 80%;
   text-align: center;
   h2{

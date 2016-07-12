@@ -62,8 +62,12 @@ h1.header-title{
   @include fadeIn(
     $delay: 1.5s
   );
+  @media (max-width: $tablet) {
+    font-size:  300%;
+    letter-spacing: 1.5rem;
+  }
   @media (max-width: $phone) {
-    font-size:  200%;
+    font-size:  150%;
     letter-spacing: 1rem;
   }
 }
@@ -111,7 +115,7 @@ h1.post-header-title{
   @media (max-width: $tablet) {
     font-size: 200%;
   }
-  
+
 }
 .post-tag{
   font-family: $alt-font-family;
