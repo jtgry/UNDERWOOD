@@ -33,9 +33,9 @@
 .header{
   display: table;
   width: 100%;
-  min-height: 80vh;
-  max-height: 80vh;
-  height: 80vh;
+  min-height: 90vh;
+  max-height: 90vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -200,6 +200,20 @@ button,.button,a.button{
   }
 
 }
-
-
 button:focus {outline:0;}
+
+.fade-in{
+  @include fadeIn(
+    $delay: 1.0s
+  );
+}
+.fade-in-slow{
+  @include fadeIn(
+    $delay: 2.0s
+  );
+}
+.fade-in-slower{
+  @include fadeIn(
+    $delay: 3.0s
+  );
+}

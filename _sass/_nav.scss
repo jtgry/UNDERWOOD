@@ -1,20 +1,25 @@
 .nav{
-  width: auto;
-  padding: 2em 2em 2em;
+  width: 100%;
+  padding: 2em 0;
   line-height: .1;
+  background: $color-white;
   text-transform: uppercase;
   border-bottom: solid 1px $color-grey-light;
+  position: absolute;
+  z-index: 1000;
 }
 .nav-title{
   float: left;
   font-family: $header-font-family;
   letter-spacing: .3em;
+  padding-left: 20px;
 }
 .nav-items{
   float: right;
   font-family: $alt-font-family;
   font-size: 75%;
   letter-spacing: .2em;
+  padding-right: 20px;
 }
 .nav-items ul,li{
   display: inline;
