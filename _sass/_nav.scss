@@ -15,11 +15,15 @@
   padding-left: 20px;
 }
 .nav-items{
+  display: block;
   float: right;
   font-family: $alt-font-family;
   font-size: 75%;
   letter-spacing: .2em;
   padding-right: 20px;
+  @media (max-width: $tablet) {
+    display: none;
+  }
 }
 .nav-items ul,li{
   display: inline;
@@ -27,4 +31,20 @@
 }
 .nav-items ul,li,a:hover{
   text-decoration: none;
+}
+.menu-button {
+	display: none;
+  position: absolute;
+  margin-top: -.5em;
+  right: 20px;
+  @media (max-width: $tablet) {
+    display: inline-block;
+  }
+}
+@import "../burger";
+.burger-icon {
+	@include burger(25px, 2px, 5px, $color-black);
+}
+.menu-button.is-active .burger-icon {
+	@include burger-to-cross;
 }
