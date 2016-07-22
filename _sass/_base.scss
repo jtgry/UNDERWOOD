@@ -24,6 +24,7 @@ body {
     font-family: $base-font-family;
     color: $color-black;
     background-color: $color-white;
+    z-index: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
@@ -225,24 +226,5 @@ pre {
         content: "";
         display: table;
         clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $color-grey;
-        }
     }
 }
