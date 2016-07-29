@@ -37,13 +37,16 @@
   display: inline-block;
   margin-left: 2em;
 }
+.nav-items a{
+  padding: 2em 0;
+}
 .nav-items a:hover{
   text-decoration: none;
 }
 .nav-button {
 	display: none;
   position: absolute;
-  margin-top: -.7em;
+  margin-top: -2.6em;
   right: 20px;
   z-index: 1600;
   @media (max-width: $tablet) {
@@ -78,7 +81,7 @@
 .mobile-nav-items ul{
   margin: 0;
 }
-.mobile-nav-items li{
+.mobile-nav-items a{
   display: block;
   padding: .5em 0;
   width: 100%;
