@@ -1,11 +1,14 @@
 .nav{
   width: 100%;
-  padding: 2em 0;
-  line-height: .1;
+  line-height: 0;
   background: $color-white;
   text-transform: uppercase;
   position: absolute;
+  display: table;
   z-index: 1600;
+}
+.nav-transparent{
+  background: $color-transparent;
 }
 .nav-title a{
   float: left;
@@ -20,17 +23,18 @@
   font-family: $alt-font-family;
   font-size: 75%;
   letter-spacing: .2em;
+  padding: 3em 0;
   padding-right: 20px;
+}
+.nav-items ul{
+  margin: 0;
   @media (max-width: $tablet) {
     display: none;
   }
 }
-.nav-items ul{
-  margin: 0;
-}
 
 .nav-items li{
-  display: inline;
+  display: inline-block;
   margin-left: 2em;
 }
 .nav-items a:hover{
@@ -39,7 +43,7 @@
 .nav-button {
 	display: none;
   position: absolute;
-  margin-top: -.5em;
+  margin-top: -.7em;
   right: 20px;
   z-index: 1600;
   @media (max-width: $tablet) {
@@ -66,12 +70,10 @@
   text-align: center;
   position: fixed;
   opacity: 0;
-  transition: opacity 0.5s linear;
 }
 .mobile-nav-items{
   font-family: $alt-font-family;
   letter-spacing: .2em;
-
 }
 .mobile-nav-items ul{
   margin: 0;
@@ -88,4 +90,7 @@
   display: table;
   z-index: 1500;
   opacity: 1;
+  @include fadeIn(
+    $delay: .1s
+  );
 }
