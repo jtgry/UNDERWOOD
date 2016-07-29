@@ -59,6 +59,7 @@ h1.header-title{
   text-transform: uppercase;
   letter-spacing: 2rem;
   color: $color-white;
+  margin-top: 10vh;
   @include fadeIn(
     $delay: 1.5s
   );

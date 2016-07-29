@@ -5,7 +5,7 @@ $(document).ready(function () {
       e.preventDefault();
   });
   $('.nav-button').click(function() {
-    $(".mobile-nav").toggleClass("show-nav");
+    $(".mobile-nav").fadeToggle(500);
     $(".nav").toggleClass("nav-transparent");
   });
 });
