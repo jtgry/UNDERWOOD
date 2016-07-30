@@ -179,6 +179,8 @@ button,.button,a.button{
   letter-spacing: .2rem;
   display: inline-block;
   -webkit-appearance: none;
+  -webkit-border-radius:0;
+  border-radius:0;
   &:hover {
       background: darken($color-brand, 5%);
       border-color: darken($color-brand, 5%);
