@@ -5,6 +5,7 @@ date:   2016-07-01 22:44:18 -0500
 author: Tyler
 categories: Journal
 image_path: "/images/fox.jpg"
+featured: "true"
 ---
 A Crow having stolen a bit of meat, perched in a tree and held it
 in her beak.  A Fox, seeing this, longed to possess the meat

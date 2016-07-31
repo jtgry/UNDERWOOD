@@ -5,6 +5,7 @@ date:   2016-06-29 22:44:18 -0500
 author: Tyler
 categories: Journal
 image_path: "/images/eagle.jpg"
+featured: "true"
 ---
 An Eagle sat on a lofty rock, watching the movements of a Hare
 whom he sought to make his prey.  An archer, who saw the Eagle
