@@ -9,14 +9,15 @@ $(document).ready(function () {
     $(".nav").toggleClass("nav-transparent");
   });
   $(window).on('scroll',function() {
-      if ($(this).scrollTop() > 200) {
+      if ($(this).scrollTop() > 400) {
         $(".nav").removeClass("fade-in-slow");
         $(".nav").removeClass("nav-up");
-        $(".nav").addClass("nav-fixed");
+        $(".nav").addClass("nav-down");
       }
       else {
-      $(".nav").addClass("nav-up");
-      $(".nav").removeClass("nav-fixed");
+      $(".nav").addClass("nav-fixed");
+      $(".nav").removeClass("nav-up");
+
 		  }
     });
 });

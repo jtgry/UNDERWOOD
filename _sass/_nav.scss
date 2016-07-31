@@ -8,13 +8,20 @@
   z-index: 1600;
 }
 .nav-fixed{
+  position: absolute;
+  @include fadeIn(
+    $delay: .1s
+  );
+}
+.nav-down{
   position: fixed;
   @include fadeInDown(
     $delay: .1s
   );
 }
 .nav-up{
-  @include fadeInUp(
+  position: fixed;
+  @include fadeOutUp(
     $delay: .1s
 );
 }
